@@ -71,6 +71,7 @@ ToastFuture showToast(
 
   return showToastWidget(
     widget,
+    animationDuration: animationDuration,
     animationBuilder: animationBuilder,
     context: context,
     duration: duration,
